@@ -29,13 +29,18 @@ Chạy lệnh để tạo cho nó 1 **Procfile** `echo web: vendor/bin/heroku-ph
 
 - `$ git push heroku master` Up lên kho lưu trữ
 
-#Lệnh kết nối env
+# Lệnh kết nối env
 
+`heroku config:add APP_DEBUG=true`
 
+`heroku config:add APP_KEY=base64:r4m70a6iE2Q7qgzQCyJHb7OPDRuCO/dWwDUm2yiGYxw=`
 
 `heroku config:add APP_NAME=Laravel`
+
 `heroku config:add APP_ENV=production`
-`heroku config:add APP_URL=https://stormy-dawn-81482.herokuapp.com/`
+
+`heroku config:add APP_URL=https://huykhangvo2021.herokuapp.com/` :Thay thế đường dẫn từ localhost lên web.
+
 Resources  tìm **Heroku Postgres**  add csdl vào
 
 ![](https://i0.wp.com/s1.uphinh.org/2021/09/06/image83672d193e6182cc.png)
