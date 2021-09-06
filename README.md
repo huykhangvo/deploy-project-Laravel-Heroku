@@ -21,6 +21,8 @@ Chạy lệnh để tạo cho nó 1 **Procfile** `echo web: vendor/bin/heroku-ph
 
 - `git commit -m "initial release"` :comit bản phát hành đầu
 
+- `heroku git:remote -a huykhangvo2021` : kết nối khu lưu trữ heroku tên thư mục
+
 - `git remote -v : xác minh`
 
 - `$ git push heroku master`
