@@ -49,16 +49,21 @@ Resources  tìm **Heroku Postgres**  add csdl vào
 
 ![](https://i0.wp.com/s1.uphinh.org/2021/09/06/imageb23e6a54e1e2cfb9.png)
 
-`heroku pg:credentials:url` Xem thông tin CSDL
-
 FULL cmd ![](https://i0.wp.com/s1.uphinh.org/2021/09/06/image1528ed1bff92c99b.png)
 
-Kết nối csdl
-`heroku config:add`  Chèn từng dòng bên dưới
+KẾT NỐI CSDL
+-Dựa vào lệnh `heroku pg:credentials:url` Xem thông tin CSDL và kết nối như lệnh dưới
 
-`    DB_CONNECTION=pgsql
-    DB_HOST=ec2-44-196-8-220.compute-1.amazonaws.com
-    DB_PORT=5432
-    DB_DATABASE=d7mqjcfm9mp70u
-    DB_USERNAME=hkfzhijfznfxsh
-    DB_PASSWORD=82083902ff36406e97046c078f48eaafe35918c6417ab12b22a5eccd5e43f152`
+- `heroku config:add DB_CONNECTION=pgsql`
+
+- `heroku config:add DB_HOST=ec2-44-196-8-220.compute-1.amazonaws.com`
+
+- `heroku config:add DB_PORT=5432`
+
+- `heroku config:add DB_DATABASE=d7mqjcfm9mp70u`
+
+- `heroku config:add DB_USERNAME=hkfzhijfznfxsh`
+
+- `heroku config:add DB_PASSWORD=82083902ff36406e97046c078f48eaafe35918c6417ab12b22a5eccd5e43f152`
+
+
