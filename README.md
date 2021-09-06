@@ -13,25 +13,17 @@ Chạy lệnh để tạo cho nó 1 **Procfile** `echo web: vendor/bin/heroku-ph
 
 ![](https://i0.wp.com/s1.uphinh.org/2021/09/06/image467f87a071a47f18.png)
 
-Trước tiên, chúng ta cần chạy:  `git init` Để tạo kho lưu trữ trống.
->Đều này rất quan trọng bởi vì chúng ta làm việc với heroku
+- `heroku login` Login với heroku
 
-`git add .` :Đẩy dữ liệu lênh
+- `git init` Để tạo kho lưu trữ trống.
 
-`git commit -m "initial release"` :comit bản phát hành đầu
+- `git add .` :Đẩy tất cả dữ liệu
 
-`heroku login`
+- `git commit -m "initial release"` :comit bản phát hành đầu
 
-    $ cd my-project/
-    
-    $ git add .
-    $ git commit -am "make it better"
+- `git remote -v : xác minh`
 
-`heroku create`
-
-`git remote -v : xác minh`
-
-`$ git push heroku master`
+- `$ git push heroku master`
 
 `heroku config:add APP_NAME=Laravel`
 `heroku config:add APP_ENV=production`
