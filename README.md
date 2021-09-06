@@ -46,6 +46,9 @@ Resources  tìm **Heroku Postgres**  add csdl vào
 ![](https://i0.wp.com/s1.uphinh.org/2021/09/06/image83672d193e6182cc.png)
 
 ![](https://i0.wp.com/s1.uphinh.org/2021/09/06/imageecbad52c70d138e6.png)
+
+![](https://i0.wp.com/s1.uphinh.org/2021/09/06/imageb23e6a54e1e2cfb9.png)
+
 heroku pg:credentials:url
 
 FULL cmd ![](https://i0.wp.com/s1.uphinh.org/2021/09/06/image1528ed1bff92c99b.png)
