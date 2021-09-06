@@ -1,7 +1,17 @@
 # heroku to laravel
+Đầu tiên tạo 1 thư mục có tên là **heroku** copy project laravel có tên là **shop** vào như hình bên dưới
 
-Mở project `echo web: vendor/bin/heroku-php-apache2 public/ > Procfile`
+![](https://i0.wp.com/s1.uphinh.org/2021/09/06/imagea093beaaf149beaf.png)
 
+Mở Git Bash Here
+
+![](https://i0.wp.com/s1.uphinh.org/2021/09/06/imagea6a97d492f24752e.png)
+
+`cd shop` : mở project laravel
+
+Chạy lệnh để tạo cho nó 1 **Procfile** `echo web: vendor/bin/heroku-php-apache2 public/ > Procfile` như hình bên dưới
+
+![](https://i0.wp.com/s1.uphinh.org/2021/09/06/image467f87a071a47f18.png)
 
 Trước tiên, chúng ta cần chạy:  `git init` Để tạo kho lưu trữ trống.
 >Đều này rất quan trọng bởi vì chúng ta làm việc với heroku
@@ -11,9 +21,6 @@ Trước tiên, chúng ta cần chạy:  `git init` Để tạo kho lưu trữ t
 `git commit -m "initial release"` :comit bản phát hành đầu
 
 `heroku login`
-
-`composer create-project laravel/laravel shop`
-
 
     $ cd my-project/
     
