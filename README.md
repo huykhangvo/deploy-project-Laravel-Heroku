@@ -27,7 +27,7 @@ Chạy lệnh để tạo cho nó 1 **Procfile** `echo web: vendor/bin/heroku-ph
 
 ![](https://i0.wp.com/s1.uphinh.org/2021/09/06/imagea6d2e0d4838cc4d2.png)
 
-- `$ git push heroku master` Up lên kho lưu trữ
+- `git push heroku master` Up lên kho lưu trữ
 
 # Lệnh kết nối env
 
@@ -52,6 +52,7 @@ Resources  tìm **Heroku Postgres**  add csdl vào
 FULL cmd ![](https://i0.wp.com/s1.uphinh.org/2021/09/06/image1528ed1bff92c99b.png)
 
 KẾT NỐI CSDL
+
 -Dựa vào lệnh `heroku pg:credentials:url` Xem thông tin CSDL và kết nối như lệnh dưới
 
 - `heroku config:add DB_CONNECTION=pgsql`
@@ -66,4 +67,8 @@ KẾT NỐI CSDL
 
 - `heroku config:add DB_PASSWORD=82083902ff36406e97046c078f48eaafe35918c6417ab12b22a5eccd5e43f152`
 
+Hoặc làm thủ công tại đây
 
+![](https://i0.wp.com/s1.uphinh.org/2021/09/06/imagec826510aa25e2963.png)
+
+Gõ lệnh `heroku run php artisan migrate` tự tạo CSDL
